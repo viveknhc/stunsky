@@ -465,6 +465,20 @@ a {
     border-radius: 6px;
 }
 
+.viewall-btn{
+    background-color: #ffffff;
+    color: #141414;
+    border: 1px solid #d0d0d0;
+    border-radius: 6px;
+}
+
+
+.viewall-btn:hover{
+    background-color: #141414;
+    color: #ffffff;
+    border: 1px solid #141414;
+    border-radius: 6px;
+}
 .quote-btn:hover{
     background-color: #141414;
     color: #ffffff;
