@@ -1,1 +1,109 @@
-hhi
+{% extends 'web/partials/base.html' %}
+{% load static %}
+{% block content %}
+
+
+<section class="main" style="background-image: url(../../static/web/images/banner.png);">
+
+    <div class="head">
+        <h5 class="sub-heading">Digital Studio</h5>
+        <h2 class="main-head">Good Design</h2>
+        <h2 class="main-head">Mean That</h2>
+        <h2 class="main-head">Good Buissness</h2>
+
+        <p class="banner-para">
+            We help our client suceed by creating identities, digital
+            experiences, and printmaterials that communicate clearly,
+            achieve marketing goals & look fantastic Lorem uispum
+            dolor sit amert tunoer poea opefse ceefo goipully.
+        </p>
+        <div class="py-5">
+            <a class="explore-btn px-4 py-1" href="">Explore</a>
+            <a class="quote-btn px-4 py-1" href="">Get A Quote</a>
+        </div>
+    </div>
+
+
+</section>
+
+
+<section>
+
+    <div class="service container">
+        <h5 class="sub-heading text-center ">What We Do</h5>
+
+        <h3 class="text-center explore">
+            Explore Creative And Digital Solutions For Business
+        </h3>
+
+        <div class="row pt-5 px-5">
+            <div class="col-lg-4 ">
+                <div class="card card-style  mx-auto">
+                    <div class="service-img-div p-4">
+                        <img src="{% static 'web/images/graphic.png' %}" class="service-img p-3" alt="...">
+                    </div>
+
+
+
+                    <div class="card-body">
+                        <h5 class="card-title">Graphics Design</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetr adipiscing elit. Adipiscing</p>
+                    </div>
+
+                    <div class="card-body">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 ">
+
+                <div class="card card-style mx-auto">
+
+
+                    <div class="service-img-div p-4">
+                        <img src="{% static 'web/images/ui.png' %}" class="service-img p-3" alt="...">
+                    </div>
+
+
+                    <div class="card-body">
+                        <h5 class="card-title">UI/UX Solution</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetr adipiscing elit. Adipiscing</p>
+                    </div>
+
+                    <div class="card-body">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-lg-4 ">
+
+                <div class="card card-style mx-auto">
+
+
+                    <div class="service-img-div p-4">
+                        <img src="{% static 'web/images/web.png' %}" class="service-img p-3" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Web development</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetr adipiscing elit. Adipiscing</p>
+                    </div>
+
+                    <div class="card-body">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+</section>
+{% endblock %}
