@@ -540,6 +540,32 @@ a {
     font-weight: 800;
 }
 
+.explore::after{   
+    content: '';
+    width: 531px;
+    height: 1px;
+    background: #F37B20;
+    display: inline-block;
+    text-align: center;
+    margin-top: 13px;
+}
+
+
+.exploreblack{
+    color: white;
+}
+
+.exploreblack::after{
+    content: '';
+    width: 510px;
+    height: 1px;
+    background: #F37B20;
+    display: inline-block;
+    text-align: center;
+    margin-top: 13px;
+}
+
+
 
 
 
